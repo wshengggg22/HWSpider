@@ -8,7 +8,7 @@ def send_rpc_request(method, params, rpc_id=21):
     headers = {"Content-Type": "application/json"}
     payload = {
     "method":"Move",
-    "params":[4, 0, 0, 200, 2],
+    "params":[4, 0, 0, 200, 0],
     #<mode>, <movement_direction>, <rotation>, <speed>, <times> 
     "jsonrpc" : "2.0", 
     "id": 21
@@ -18,5 +18,5 @@ def send_rpc_request(method, params, rpc_id=21):
     return response.json()
 
 # Example usage
-response = send_rpc_request("Move", [4, 0, 0, 200, 2], rpc_id=21)
+response = send_rpc_request("Move", [4, 0, 0, 200, 0], rpc_id=21)
 print(response)
