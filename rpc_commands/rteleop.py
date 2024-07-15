@@ -3,7 +3,7 @@ import subprocess
 import os
 
 # Define the base path for the movement scripts
-base_path = '/home/HWSpider/rpc_commands'
+base_path = '/home/wshengggg/HWSpider/rpc_commands'
 
 # Define the mapping of keys to commands
 key_command_map = {
