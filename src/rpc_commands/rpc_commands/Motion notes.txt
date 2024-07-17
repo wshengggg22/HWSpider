@@ -90,3 +90,5 @@ key_command_map = {
     'u': 'quadrupledrotateanticlockwise.py',
     'o': 'quadrupledrotateclockwise.py',
     }
+
+edited
